@@ -1,0 +1,79 @@
+.nav_text{
+    color: white !important;
+}
+.hero_div{
+    background-color: #DBE2EF;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #F9F7F7, #DBE2EF,#3F72AF );
+    /* background: linear-gradient(300deg, #3066BE, #40E0D0, #87CEEB); */
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } 
+
+  #contact-us {
+    background: linear-gradient(300deg, #3F72AF, #DBE2EF, #F9F7F7 );
+    /* background: linear-gradient(300deg, #3066BE, #40E0D0, #87CEEB); */
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } 
+
+#about-us, #how-it-works, .text-muted{
+    background-color: #F9F7F7; 
+    color: #112D4E !important;
+}
+/* #about-us img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+#features{
+  background-color: #F9F7F7;
+}
+#arrow-path {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+      stroke-dashoffset: 0;
+  }
+}
+/* #contact-us{
+  background-color: #DBE2EF;
+} */
+
